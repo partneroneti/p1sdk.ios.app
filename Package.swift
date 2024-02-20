@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "P1Package",
+    name: "p1-ios",
     products: [
         .library(name: "P1Package", targets: ["P1Package", "FaceTecSDK"]),
     ],
