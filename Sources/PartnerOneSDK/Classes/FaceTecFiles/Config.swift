@@ -19,14 +19,14 @@ open class Config {
           let font = UIFont.init(name: "SFProDisplay-Regular", size: UIFont.labelFontSize)
           
           // For Color Customization
-          let outerBackgroundColor = UIColor(hexString: "#283897")
-          let frameColor = UIColor(hexString: "#283897")
-          let borderColor = UIColor(hexString: "#283897")
-          let ovalColor = UIColor(hexString: "#000000")
+          let outerBackgroundColor = UIColor(hexString: "#7d7c80")
+          let frameColor = UIColor(hexString: "#7d7c80")
+          let borderColor = UIColor(hexString: "#7d7c80")
+          let ovalColor = UIColor(hexString: "#ffffff")
           let dualSpinnerColor = UIColor(hexString: "#e32b24")
           let textColor = UIColor(hexString: "#ffffff")
-          let buttonAndFeedbackBarColor =  UIColor(hexString: "#e32b24")
-          let buttonAndFeedbackBarTextColor = UIColor(hexString: "#ffffff")
+          let buttonAndFeedbackBarColor =  UIColor(hexString: "#01ea5e")
+          let buttonAndFeedbackBarTextColor = UIColor(hexString: "#221c46")
           let buttonColorHighlight =  UIColor(hexString: "#396E99")
           let buttonColorDisabled =  UIColor(hexString: "#B9CCDE")
           let feedbackBackgroundLayer = CAGradientLayer.init()
@@ -58,7 +58,7 @@ open class Config {
           defaultCustomization.overlayCustomization.backgroundColor = outerBackgroundColor
 
           // Set Guidance Customization
-          defaultCustomization.guidanceCustomization.buttonCornerRadius = 25
+          defaultCustomization.guidanceCustomization.buttonCornerRadius = 0
           defaultCustomization.guidanceCustomization.backgroundColors = [frameColor, frameColor]
           defaultCustomization.guidanceCustomization.foregroundColor = textColor
           
@@ -75,6 +75,8 @@ open class Config {
           defaultCustomization.guidanceCustomization.buttonBackgroundNormalColor = buttonAndFeedbackBarColor
           defaultCustomization.guidanceCustomization.buttonBackgroundDisabledColor = buttonColorDisabled
           defaultCustomization.guidanceCustomization.buttonBackgroundHighlightColor = buttonColorHighlight
+          defaultCustomization.guidanceCustomization.buttonBorderWidth = 4
+          defaultCustomization.guidanceCustomization.buttonBorderColor = buttonAndFeedbackBarTextColor
           defaultCustomization.guidanceCustomization.buttonTextNormalColor = buttonAndFeedbackBarTextColor
           defaultCustomization.guidanceCustomization.buttonTextDisabledColor = buttonAndFeedbackBarTextColor
           defaultCustomization.guidanceCustomization.buttonTextHighlightColor = buttonAndFeedbackBarTextColor

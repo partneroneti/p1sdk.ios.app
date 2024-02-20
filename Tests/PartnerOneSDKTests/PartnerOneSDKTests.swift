@@ -1,5 +1,5 @@
 import XCTest
-@testable import P1Package
+@testable import PartnerOneSDK
 
 final class P1PackageTests: XCTestCase {
     func testExample() throws {

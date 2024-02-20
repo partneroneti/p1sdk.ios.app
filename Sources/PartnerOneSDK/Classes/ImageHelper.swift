@@ -1,5 +1,3 @@
-import UIKit
-
 class ImageHelper {
     
     static func cropImage(_ inputImage: UIImage, toRect cropRect: CGRect, imageViewWidth: CGFloat, imageViewHeight: CGFloat) -> UIImage? {

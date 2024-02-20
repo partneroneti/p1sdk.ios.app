@@ -28,7 +28,7 @@ final class FacialScanViewController: UIViewController, URLSessionDelegate {
 
     private let activity: UIActivityIndicatorView = {
         let activity = UIActivityIndicatorView()
-        activity.style = .whiteLarge
+        activity.activityIndicatorViewStyle = .whiteLarge
         activity.startAnimating()
         activity.translatesAutoresizingMaskIntoConstraints = false
         return activity

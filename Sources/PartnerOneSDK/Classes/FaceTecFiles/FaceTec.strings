@@ -6,12 +6,12 @@
 "FaceTec_accessibility_torch_button" = "Alternar luz";
 
 "FaceTec_action_ok" = "OK";
-"FaceTec_action_im_ready" = "ESTOU PRONTO";
-"FaceTec_action_try_again" = "TENTE NOVAMENTE";
-"FaceTec_action_continue" = "CONTINUAR";
-"FaceTec_action_take_photo" = "TIRAR FOTO";
-"FaceTec_action_retake_photo" = "RETOMAR";
-"FaceTec_action_accept_photo" = "ACEITAR";
+"FaceTec_action_im_ready" = "Estou pronto";
+"FaceTec_action_try_again" = "Tente novamente";
+"FaceTec_action_continue" = "Continuar";
+"FaceTec_action_take_photo" = "Tirar foto";
+"FaceTec_action_retake_photo" = "Retomar";
+"FaceTec_action_accept_photo" = "Aceitar";
 "FaceTec_action_confirm" = "CONFIRMAR INFORMAÇÕES";
 "FaceTec_action_scan_nfc" = "SCAN ePASSPORT";
 "FaceTec_action_scan_nfc_card" = "SCAN ID CARD";
@@ -23,13 +23,13 @@
 "FaceTec_camera_permission_enable_camera" = "HABILITAR CÂMERA";
 "FaceTec_camera_permission_launch_settings" = "CONFIGURAÇÕES DE LANÇAMENTO";
 
-"FaceTec_feedback_center_face" = "Centralizar seu rosto";
+"FaceTec_feedback_center_face" = "Centralize seu rosto";
 "FaceTec_feedback_face_not_found" = "Coloque o rosto no circulo";
 "FaceTec_feedback_face_not_looking_straight_ahead" = "Olhe para frente";
 "FaceTec_feedback_face_not_upright" = "Mantenha a cabeça reta";
 "FaceTec_feedback_hold_steady" = "Mantenha firme";
 "FaceTec_feedback_move_phone_away" = "Afastar";
-"FaceTec_feedback_move_phone_closer" = "Mover mais perto";
+"FaceTec_feedback_move_phone_closer" = "Aproxime seu rosto";
 "FaceTec_feedback_move_phone_to_eye_level" = "Mover a câmera para o nível dos olhos";
 "FaceTec_feedback_use_even_lighting" = "Iluminar o rosto de forma mais uniforme";
 
@@ -57,10 +57,10 @@
 
 "FaceTec_initializing_camera" = "Inicializando camera segura";
 
-"FaceTec_instructions_header_ready_1" = "Prepare-se para";
+"FaceTec_instructions_header_ready_1" = "Vamos lá! Prepare-se para";
 "FaceTec_instructions_header_ready_2" = "para começar.";
-"FaceTec_instructions_message_ready_1" = "Enquadre seu rosto na marcação, pressione";
-"FaceTec_instructions_message_ready_2" = "o botão abaixo e siga as indicações na tela.";
+"FaceTec_instructions_message_ready_1" = "Procure um local iluminado, retire";
+"FaceTec_instructions_message_ready_2" = "óculos, bonés e acessórios.";
 
 "FaceTec_presession_frame_your_face" = "Centralizar seu rosto";
 "FaceTec_presession_position_face_straight_in_oval" = "Coloque o rosto no circulo";

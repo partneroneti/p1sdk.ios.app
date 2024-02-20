@@ -28,7 +28,7 @@ class PseudoFullscreenActivityIndicatorView : UIView {
         layer.fillColor = nil
         layer.strokeColor = UIColor(red: 0.169, green: 0.169, blue: 0.169, alpha: 1).cgColor // black
         layer.lineWidth = round(4.0 * contentScalingFactor())
-//        layer.lineCap = "round"
+        layer.lineCap = "round"
         
         setPath()
     }
