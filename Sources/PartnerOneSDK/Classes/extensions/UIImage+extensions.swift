@@ -1,3 +1,5 @@
+import UIKit
+
 extension UIImage {
     
     private var MAX_SIZE_IMAGE: CGFloat { return 1000 }
@@ -27,7 +29,7 @@ extension UIImage {
     }
     
     func compress(_ jpegQuality: JPEGQuality) -> Data? {
-        return UIImageJPEGRepresentation(self, jpegQuality.rawValue)
+        return self.jpegData(compressionQuality: jpegQuality.rawValue)
     }
     
     func rotate(degrees: CGFloat)-> UIImage? {

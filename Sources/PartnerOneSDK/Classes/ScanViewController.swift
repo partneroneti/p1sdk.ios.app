@@ -168,7 +168,7 @@ extension ScanViewController {
         
         baseView.cameraContainer.layer.insertSublayer(previewLayer, below: baseView.background.cropReferenceView.layer)
         baseView.cameraContainer.addSubview(baseView.background)
-        baseView.sendSubview(toBack: baseView.cameraContainer)
+      baseView.sendSubviewToBack(baseView.cameraContainer)
     }
 }
 

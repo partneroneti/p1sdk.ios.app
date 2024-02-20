@@ -92,7 +92,7 @@ open class ScanView: BaseView {
         addSubview(confirmationLabel)
         cameraContainer.addSubview(background)
         addSubview(transparentImageView)
-        bringSubview(toFront: transparentImageView)
+        bringSubviewToFront(transparentImageView)
     }
     
     open override func installConstraints() {
@@ -160,7 +160,7 @@ open class ScanView: BaseView {
         let path = UIBezierPath(roundedRect: background.bounds,
                                 byRoundingCorners: [.topLeft, .topRight, .bottomLeft, .bottomRight],
                                 cornerRadii: CGSize(width: 0, height: 0))
-        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         
         background.cropReferenceView.addDashedBorder(radius: 10, pattern: [4,4], color: UIColor.white.cgColor)
         background.cropReferenceView.layer.borderWidth = 10
