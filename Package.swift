@@ -5,11 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "p1-ios",
+    defaultLocalization: "pt",
     products: [
         .library(name: "PartnerOneSDK", targets: ["PartnerOneSDK", "FaceTecSDK"]),
     ],
     targets: [
-        .target(name: "PartnerOneSDK"),
+        .target(name: "PartnerOneSDK", resources: [.process("Classes/FaceTecFiles/FaceTec.strings")]),
         .testTarget(name: "PartnerOneSDKTests", dependencies: ["PartnerOneSDK"]),
         .binaryTarget(name: "FaceTecSDK", path: "FaceTecSDK.xcframework"),
     ]

@@ -47,6 +47,9 @@ class FacetecUtils {
           print("@! >>> FaceTec_ProductionKeyText: ", productionKeyText)
           
           Config.loadFont(withName: "SFProDisplay-Regular")
+          
+          let settingsURL = Bundle.module.url(forResource: "settings", withExtension: "plist")
+          
           FaceTec.sdk.configureLocalization(withTable: nil, bundle: Bundle.getBundle())
           FaceTec.sdk.initializeInProductionMode(
               productionKeyText: productionKeyText,
