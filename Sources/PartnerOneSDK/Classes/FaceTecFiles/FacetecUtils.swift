@@ -48,6 +48,8 @@ class FacetecUtils {
           
           Config.loadFont(withName: "SFProDisplay-Regular")
           
+          print("Teste \(Bundle.module.url(forResource: "FaceTec", withExtension: "strings"))")
+          
           let bundleModule = Bundle.module
           let settingsURL = Bundle.module.url(forResource: "settings", withExtension: "plist")
           
