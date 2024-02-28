@@ -48,6 +48,7 @@ class FacetecUtils {
           
           Config.loadFont(withName: "SFProDisplay-Regular")
           
+          let bundleModule = Bundle.module
           let settingsURL = Bundle.module.url(forResource: "settings", withExtension: "plist")
           
           FaceTec.sdk.configureLocalization(withTable: nil, bundle: Bundle.getBundle())
