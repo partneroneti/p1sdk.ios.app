@@ -10,7 +10,12 @@ let package = Package(
         .library(name: "PartnerOneSDK", targets: ["PartnerOneSDK", "FaceTecSDK"]),
     ],
     targets: [
-        .target(name: "PartnerOneSDK", resources: [.process("Classes/FaceTecFiles/FaceTec.strings")]),
+        .target(name: "PartnerOneSDK", resources: [
+                .process("Classes/FaceTecFiles/FaceTec.strings"),
+                .process("Fonts.xcassets"),
+                .process("Assets/Fonts/SFProDisplay-Regular.ttf")
+            ]
+        ),
         .testTarget(name: "PartnerOneSDKTests", dependencies: ["PartnerOneSDK"]),
         .binaryTarget(name: "FaceTecSDK", path: "FaceTecSDK.xcframework"),
     ]
