@@ -51,7 +51,7 @@ class FacetecUtils {
           let bundleModule = Bundle.module
           let settingsURL = Bundle.module.url(forResource: "settings", withExtension: "plist")
           
-          FaceTec.sdk.configureLocalization(withTable: nil, bundle: Bundle.getBundle())
+          FaceTec.sdk.configureLocalization(withTable: nil, bundle: bundleModule)
           FaceTec.sdk.initializeInProductionMode(
               productionKeyText: productionKeyText,
               deviceKeyIdentifier: deviceKeyIdentifier,
