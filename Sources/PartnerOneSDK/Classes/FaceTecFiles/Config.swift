@@ -260,10 +260,12 @@ open class Config {
     
     static func loadFont(withName fontName: String) {
         guard
-            let fontURL = Bundle.getBundle().url(forResource: fontName, withExtension: "ttf"),
-            let fontData = try? Data(contentsOf: fontURL) as CFData,
-            let provider = CGDataProvider(data: fontData),
-            let font = CGFont(provider) else {
+//            let bundleURL = Bundle.getBundle().url(forResource: "PartnerOneSDK", withExtension: "bundle"),
+//              let bundle = Bundle(url: bundleURL),
+                let fontURL = Bundle.module.url(forResource: fontName, withExtension: "ttf"),
+              let fontData = try? Data(contentsOf: fontURL) as CFData,
+              let provider = CGDataProvider(data: fontData),
+              let font = CGFont(provider) else {
                 return
             }
             CTFontManagerRegisterGraphicsFont(font, nil)
